@@ -1,0 +1,151 @@
+.degree-container {
+  width: 69vw;
+  margin-top: 4rem;
+  margin-left: 18vw;
+  margin-right: 16vw;
+
+  .degree-heading {
+    font-size: 1.7rem;
+    color: darkblue;
+    margin-bottom: 1rem;
+    font-weight: 500;
+  }
+  .degree-para {
+    width: 65vw;
+  }
+
+  .btn-container {
+    margin-top: 4rem;
+
+    .row {
+      background-color: white;
+      .col button {
+        text-align: center;
+        background-color: rgb(202, 199, 199);
+        height: 4rem;
+        width: 15rem;
+        color: rgb(7, 7, 88);
+        border: none;
+
+        &:hover {
+          background-color: rgb(170, 8, 8);
+          color: white;
+        }
+      }
+      .col-4 button {
+        text-align: center;
+        background-color: rgb(202, 199, 199);
+        height: 4rem;
+        width: 20.7rem;
+        color: rgb(7, 7, 88);
+        border: none;
+        margin-top: 1.5rem;
+        padding: 0;
+
+        &:hover {
+          background-color: rgb(170, 8, 8);
+          color: white;
+        }
+      }
+    }
+  }
+}
+// choose
+.choose-container {
+  // border: 2px solid black;
+  margin-top: 4rem;
+  width: 68vw;
+  margin-left:15vw;
+
+  // .choose-heading {
+    // // border: 1px solid black;
+    // font-size: 1.8rem;
+    // font-weight: 600;
+    // text-align: center;
+    // height: 4rem;
+    // margin-left: 10vw;
+    // margin-right: 10vw;
+    // padding: 0.7rem;
+    // background-color: rgb(147, 179, 206);
+    // color: white;
+  // }
+  .container {
+    // border: 1px solid black;
+    .row {
+      //   border: 1px solid red;
+      margin-top: 2rem;
+      .col-sm {
+        // border: 1px solid green;
+        .col-head {
+          //   border: 1px solid red;
+          font-size: 25px;
+          font-weight: 500;
+          text-align: center;
+          color: rgb(1, 1, 71);
+        }
+        .choose-para {
+          font-size: 17px;
+          text-align: center;
+          padding: 12px;
+        }
+      }
+    }
+  }
+}
+
+li.nav-item {
+  min-width: 347px;
+  height: 100px;
+  border: 1px solid;
+  margin: 6px;
+}
+
+::ng-deep.customClass > a {
+  background-color: rgb(219, 218, 218) !important;
+  border-bottom: none !important;
+  outline: 0 !important;
+  height: 70px;
+  padding: 20px;
+  color: rgb(7, 7, 88) !important;
+  margin: 3px 120px 5px 0px !important;
+  &:hover{
+    background-color: rgb(170, 8, 8)!important;
+    color:white !important;
+  }
+}
+
+::ng-deep tab > active {
+  color: rgb(4, 4, 70) !important;
+  margin-right: 120px !important;
+}
+
+.abc {
+  width: 90% !important;
+  margin-top:50px;
+  // margin-left:0px !important;
+}
+tab#tab1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  text-align: center;
+  height: 4rem;
+  padding: 0.7rem;
+  background-color: rgb(147, 179, 206);
+  color: white;
+  margin-top:100px;
+  width:115% !important;
+margin-left:-80px;
+}
+
+// .choose-heading {
+  // border: 1px solid black;
+  // font-size: 1.8rem;
+  // font-weight: 600;
+  // text-align: center;
+  // height: 4rem;
+  // margin-left: 10vw;
+  // margin-right: 10vw;
+//   padding: 0.7rem;
+//   background-color: rgb(147, 179, 206);
+//   color: white;
+// }

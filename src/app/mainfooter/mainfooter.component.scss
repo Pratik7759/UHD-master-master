@@ -1,0 +1,67 @@
+.mainfooter-container {
+  width: 100vw;
+  height: 5rem;
+  background-color: rgb(12, 29, 104);
+  bottom: 0;
+  display: flex;
+  justify-content: space-around;
+  margin-top:4rem;
+
+  .mainfooter-para {
+    font-size: 1rem;
+    color: white;
+    padding: 1.5rem;
+  }
+  .mainfooter-button {
+    // border: 1px solid red;
+    display: flex;
+    font-size: 1rem;
+    color: white;
+    padding: 1.5rem;
+    .btn1 {
+      // cursor: pointer;
+      &:hover {
+        background-color: rgb(170, 8, 8);
+        color: white;
+      }
+    }
+    .btn2 {
+      margin-left: 0.8rem;
+    }
+    .btn3 {
+      margin-left: 0.8rem;
+      // cursor: pointer;
+      &:hover {
+        background-color: rgb(170, 8, 8);
+        color: white;
+      }
+    }
+    .btn4 {
+      margin-left: 9rem;
+      margin-top: 0rem;
+      height: 0.5rem;
+      width: 1rem;
+      color:white;
+      background-color: darkblue;
+    }
+  }
+}
+
+span {
+  content: "\21E7";
+}
+button {
+  width: 3rem;
+  height: 3rem;
+}
+.top-btn {
+  line-height: 3px;
+}
+
+.btn4 button {
+  margin-top: -1rem;
+}
+a{
+  color:white;
+  text-decoration: none;
+}

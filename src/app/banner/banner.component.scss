@@ -1,0 +1,43 @@
+.main-banner {
+  position: relative;
+  .footer-container {
+    width: 100vw;
+    height: 4rem;
+    background-color: rgb(12, 29, 104, 0.6);
+    position: absolute;
+    bottom: 0;
+    z-index: 2;
+
+    .footer-para {
+      font-size: 1.7rem;
+      color: white;
+      padding: 1rem;
+      padding-top: 0.7rem;
+      margin-left: 17.5vw;
+    }
+  }
+}
+app-banner {
+  position: relative;
+  z-index: 1;
+}
+ngb-carousel.carousel.slide {
+  margin-top: -9px;
+}
+img{
+  width:100vw;
+  height:75vh;
+}
+
+@media (min-width:1403px) {
+  // .img{
+  //   width:100vw;
+  //   height:30vh;
+  // }
+  // .main-banner{
+  //   height:40vh;
+  // }
+  // app-banner{
+  //   height:50vh;
+  // }
+}
