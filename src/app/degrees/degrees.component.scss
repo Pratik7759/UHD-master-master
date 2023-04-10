@@ -55,19 +55,19 @@
   // border: 2px solid black;
   margin-top: 4rem;
   width: 68vw;
-  margin-left:15vw;
+  margin-left: 15vw;
 
   // .choose-heading {
-    // // border: 1px solid black;
-    // font-size: 1.8rem;
-    // font-weight: 600;
-    // text-align: center;
-    // height: 4rem;
-    // margin-left: 10vw;
-    // margin-right: 10vw;
-    // padding: 0.7rem;
-    // background-color: rgb(147, 179, 206);
-    // color: white;
+  // // border: 1px solid black;
+  // font-size: 1.8rem;
+  // font-weight: 600;
+  // text-align: center;
+  // height: 4rem;
+  // margin-left: 10vw;
+  // margin-right: 10vw;
+  // padding: 0.7rem;
+  // background-color: rgb(147, 179, 206);
+  // color: white;
   // }
   .container {
     // border: 1px solid black;
@@ -108,9 +108,9 @@ li.nav-item {
   padding: 20px;
   color: rgb(7, 7, 88) !important;
   margin: 3px 120px 5px 0px !important;
-  &:hover{
-    background-color: rgb(170, 8, 8)!important;
-    color:white !important;
+  &:hover {
+    background-color: rgb(170, 8, 8) !important;
+    color: white !important;
   }
 }
 
@@ -121,7 +121,7 @@ li.nav-item {
 
 .abc {
   width: 90% !important;
-  margin-top:50px;
+  margin-top: 50px;
   // margin-left:0px !important;
 }
 tab#tab1 {
@@ -132,20 +132,24 @@ tab#tab1 {
   padding: 0.7rem;
   background-color: rgb(147, 179, 206);
   color: white;
-  margin-top:100px;
-  width:115% !important;
-margin-left:-80px;
+  margin-top: 100px;
+  width: 115% !important;
+  margin-left: -80px;
 }
 
 // .choose-heading {
-  // border: 1px solid black;
-  // font-size: 1.8rem;
-  // font-weight: 600;
-  // text-align: center;
-  // height: 4rem;
-  // margin-left: 10vw;
-  // margin-right: 10vw;
+// border: 1px solid black;
+// font-size: 1.8rem;
+// font-weight: 600;
+// text-align: center;
+// height: 4rem;
+// margin-left: 10vw;
+// margin-right: 10vw;
 //   padding: 0.7rem;
 //   background-color: rgb(147, 179, 206);
 //   color: white;
 // }
+
+
+// https://stackoverflow.com/questions/48174716/customize-tab-in-ngx-bootstrap
+// https://mdbootstrap.com/docs/angular/utilities/spacing/
